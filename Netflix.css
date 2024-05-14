@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", san-serif;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8%;
+    z-index: 10;
+  
+  }
+  
+  .navbar_netflix {
+    height: 100%;
+    width: 125px;
+  }
+  
+  .navbar_nav_items {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+  }
+  
+  .netflix_logo {
+  
+    background: transparent;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .language_drop_down {
+    background: transparent;
+    color: white;
+  
+  }
+  
+  .dropdown_container {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  option {
+    background-color: black;
+    color: white;
+  }
+  
+  .signin_button {
+    padding: 0.4rem;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    height: 35px;
+    width: 100px;
+  }
+  
+  .hero_bg_img_cont {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  
+  }
+  
+  .hero_bg_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero_bg_overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero_card {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+  }
+  
+  .hero_title {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  
+  .hero_subtitle {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.3rem;
+  }
+  
+  .hero_email {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .email {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    width: 300px;
+    color: white;
+  }
+  
+  .get_started {
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+  
+  }
+  
+  get_started:hover {
+    background-color: #d9090d;
+  }
